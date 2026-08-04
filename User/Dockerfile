@@ -2,10 +2,10 @@ FROM node
 
 WORKDIR /app
 
-COPY . /app
-
-EXPOSE 8094:80
+COPY ..
 
 RUN npm install
 
-CMD npm run dev
+EXPOSE 8094
+
+CMD ["npm" , "run" ,"dev"]
