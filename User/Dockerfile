@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-EXPOSE 3001:3001
+EXPOSE 8094:80
 
 RUN npm install
 
