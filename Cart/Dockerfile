@@ -2,9 +2,9 @@ FROM node
 
 WORKDIR /app
 
-COPY . /app
+COPY ..
 
-EXPOSE 3003:3003
+EXPOSE 8091:80
 
 RUN npm install
 
