@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY ..
 
-EXPOSE 8093:80
-
 RUN npm install
 
-CMD npm run dev
+EXPOSE 8093
+
+CMD ["npm" ,"run" ,"dev"]
