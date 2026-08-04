@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /app
 
-COPY ..
+COPY . .
 
 EXPOSE 8092
 
